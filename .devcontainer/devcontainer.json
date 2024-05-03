@@ -8,7 +8,7 @@
     "git": "latest",
     "aws-cli": "latest",
     "node": "20",
-    "docker": "latest"
+    "docker-in-docker": "latest"
   },
   "remoteEnv": {
     "PATH": "/home/vscode/.local/share/aquaproj-aqua/bin:${containerEnv:PATH}",
