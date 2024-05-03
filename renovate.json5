@@ -1,13 +1,13 @@
 {
   extends: [
-    'config:recommended',
-    'github>aquaproj/aqua-renovate-config#1.13.0',
-    'github>aquaproj/aqua-renovate-config:file#1.13.0(^(.*/)?aqua/[^/]*\\.ya?ml$)',
-    'github>suzuki-shunsuke/renovate-config#2.4.0',
+    "config:recommended",
+    "github>aquaproj/aqua-renovate-config#1.13.0",
+    "github>aquaproj/aqua-renovate-config:file#1.13.0(^(.*/)?aqua/[^/]*\\.ya?ml$)",
+    "github>suzuki-shunsuke/renovate-config#2.4.0",
   ],
   labels: [
-    'renovate:{{depName}}',
-    'renovate:{{depName}}/{{newVersion}}',
-    'datasource:{{datasource}}',
+    "renovate:{{depName}}",
+    "renovate:{{depName}}/{{newVersion}}",
+    "datasource:{{datasource}}",
   ],
 }
