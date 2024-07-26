@@ -1,4 +1,4 @@
-FROM denoland/deno-lambda:1.45.3@sha256:5d086564eecfef7378d86ce582780634e78b7f4c80d296e1b8e75083f8dd18f8
+FROM denoland/deno-lambda:1.45.4@sha256:460ff71defaf99fc59ee626fd9fdb138e23834fce9da84fc4449f20525fb3a32
 
 COPY hello.ts .
 RUN deno cache hello.ts
