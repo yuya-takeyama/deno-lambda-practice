@@ -11,4 +11,17 @@
     "renovate:{{depName}}/{{newVersion}}",
     "datasource:{{datasource}}",
   ],
+  packageRules: [
+    // aqua-registry
+    {
+      matchPackageNames: ["aquaproj/aqua-registry"],
+      enabled: false, // Please enable temporarily when the update is required. Basically, the update of aqua-registry isn't needed.
+    },
+    {
+      matchPackageNames: ["aquaproj/aqua-registry"],
+      matchUpdateTypes: ["major"],
+      enabled: true,
+      prPriority: -3,
+    },
+  ],
 }
